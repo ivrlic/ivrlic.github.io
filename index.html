@@ -1,257 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ivan Vrlić's Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="img/favicon1.ico">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
- 
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Vrlić's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon1.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-    <body>
-        <header>
-            <nav class="nav" id="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <div class="intro-text-cont">
-            <h1 class="section-title section-title-intro">
-                Hi, I am <strong>Ivan Vrlić</strong>
-            </h1>
-            <p class="section-subtitle section-subtitle-intro">Front-End Developer</p>
-            </div>
-        </section>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section-title section-title-about">Who I am</h2>
-           <p class="section-subtitle section-subtitle-about">Discovering &nbsp;| &nbsp;Creating &nbsp;| &nbsp;Enjoying</p>
-           
-           <div class="about-me-body">
-                <p>Discovering and creating new things makes my life more beautiful. When discovered coding, I stepped into a new wonderland and gladly decided to move my residence there. I am self-taught and improve my knowledge every day.</p>
-                <p>I just enjoy building apps that make someone's life better and making them delightful to use. The technologies I use are HTML5, CSS3, JS, TS, React, Angular, Jest, NPM, Git.</p>
-               <p>I also enjoy sports and nature. But my true nature is within my family whom I adore.</p>
-           </div>
-           
-           <img src="img/ivan.jpg" alt="Ivan Vrlić smiling" class="about-me-img">
-        </section>
-     
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section-title section-title-work">My work</h2>
-            <p class="section-subtitle section-subtitle-work">A selection of my range of work</p>
-            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <div class="portfolio-item">
-                    <img src="img/connect4-game.png" alt="Connect4 game screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">CONNECT 4</span>
-                    <span class="portfolio-item-body">Classic game where you have to connect 4 discs of the same color in order to win.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/connect4-game"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/connect4-game"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
-                
-                <div class="portfolio-line"></div>
+  <body>
+    <header>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-                <!-- Portfolio item 02 -->
-                <div class="portfolio-item">
-                    <img src="img/personal-dashboard.png" alt="Personal dashboard screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">PERSONAL DASHBOARD</span>
-                    <span class="portfolio-item-body">Openning a new tab in the Chrome displays the personal dashboard containing todo list, time, weather, city and a motivation quote.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/personal-dashboard-chrome-extension"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/personal-dashboard-chrome-extension"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
-                
-                <div class="portfolio-line"></div>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <div class="intro-text-cont">
+        <h1 class="section-title section-title-intro">
+          Hi, I am <strong>Ivan Vrlić</strong>
+        </h1>
+        <p class="section-subtitle section-subtitle-intro">
+          Front-End Developer
+        </p>
+      </div>
+    </section>
 
-                <!-- Portfolio item 03 -->
-                <div class="portfolio-item">
-                    <img src="img/basketball-scoreboard.png" alt="Basketball scoreboard screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">BASKETBALL SCOREBOARD</span>
-                    <span class="portfolio-item-body">Displays the score of both teams and the time left in the quarter.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/basketball-scoreboard"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/basketball-scoreboard"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
-                
-                <div class="portfolio-line"></div>
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section-title section-title-about">Who I am</h2>
+      <p class="section-subtitle section-subtitle-about">
+        Discovering &nbsp;| &nbsp;Creating &nbsp;| &nbsp;Enjoying
+      </p>
 
-                <!-- Portfolio item 04 -->
-                <div class="portfolio-item">
-                    <img src="img/restaurant-menu.png" alt="Restaurant menu screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">RESTAURANT MENU</span>
-                    <span class="portfolio-item-body">Select desired food from the restaurant menu and fill your info for the payment.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/restaurant-menu"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/restaurant-menu"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+      <div class="about-me-body">
+        <p>
+          Discovering and creating new things makes my life more beautiful. When
+          discovered coding, I stepped into a new wonderland and gladly decided
+          to move my residence there. I am self-taught and improve my knowledge
+          every day.
+        </p>
+        <p>
+          I just enjoy building apps that make someone's life better and making
+          them delightful to use. The technologies I use are HTML5, CSS3, JS,
+          TS, React, Angular, Jest, NPM, Git.
+        </p>
+        <p>
+          I also enjoy sports and nature. But my true nature is within my family
+          whom I adore.
+        </p>
+      </div>
 
-                <div class="portfolio-line"></div>
+      <img src="img/ivan.jpg" alt="Ivan Vrlić smiling" class="about-me-img" />
+    </section>
 
-                <!-- Portfolio item 05 -->
-                <div class="portfolio-item">
-                    <img src="img/treasure-hunt.png" alt="Treasure hunt screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">TREASURE HUNT</span>
-                    <span class="portfolio-item-body">Make a hunt and play with your kid. Guide him through all obstacles, experience a fantasy in the real world and have a specisl time togeher.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/treasure-hunt-game"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/treasure-hunt-game"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
-                
-                <div class="portfolio-line"></div>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section-title section-title-work">My work</h2>
+      <p class="section-subtitle section-subtitle-work">
+        A selection of my range of work
+      </p>
 
-                <!-- Portfolio item 06 -->
-                <div  class="portfolio-item">
-                    <img src="img/password-generator.png" alt="Password generator screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">PASSWORD GENERATOR</span>
-                    <span class="portfolio-item-body">Choose length and generate your random password.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/password-generator"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/password-generator"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <div class="portfolio-item">
+          <img
+            src="img/connect4-game.png"
+            alt="Connect4 game screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">CONNECT 4</span>
+          <span class="portfolio-item-body"
+            >Classic game where you have to connect 4 discs of the same color in
+            order to win.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/connect4-game"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/connect4-game"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
 
-                <div class="portfolio-line"></div>
+        <div class="portfolio-line"></div>
 
-                <!-- Portfolio item 07 -->                
-                <div  class="portfolio-item">
-                    <img src="img/react-tenzies.png" alt="React tenzies screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">REACT TENZIES</span>
-                    <span class="portfolio-item-body">Play the Tenzies game and beat the best score.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/react-tenzies"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/react-tenzies/"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+        <!-- Portfolio item 02 -->
+        <div class="portfolio-item">
+          <img
+            src="img/personal-dashboard.png"
+            alt="Personal dashboard screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">PERSONAL DASHBOARD</span>
+          <span class="portfolio-item-body"
+            >Openning a new tab in the Chrome displays the personal dashboard
+            containing todo list, time, weather, city and a motivation
+            quote.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/personal-dashboard-chrome-extension"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/personal-dashboard-chrome-extension"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
 
-                <div class="portfolio-line"></div>
+        <div class="portfolio-line"></div>
 
-                <!-- Portfolio item 08 -->
-                <div  class="portfolio-item">
-                    <img src="img/react-quizzical.png" alt="React quizzical screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">REACT QUIZZICAL</span>
-                    <span class="portfolio-item-body">Find out how good is your general knowledge.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/react-quizzical"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/react-quizzical"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+        <!-- Portfolio item 03 -->
+        <div class="portfolio-item">
+          <img
+            src="img/basketball-scoreboard.png"
+            alt="Basketball scoreboard screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">BASKETBALL SCOREBOARD</span>
+          <span class="portfolio-item-body"
+            >Displays the score of both teams and the time left in the
+            quarter.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/basketball-scoreboard"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/basketball-scoreboard"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
 
-                <!-- Portfolio item 09 -->
-                <div  class="portfolio-item">
-                    <img src="img/restaurant-page.png" alt="Restaurant page screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">RESTAURANT PAGE</span>
-                    <span class="portfolio-item-body">Visit The Evening Secret Restaurant Page.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/restaurant-page"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/restaurant-page"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+        <div class="portfolio-line"></div>
 
-                <!-- Portfolio item 10 -->
-                <div  class="portfolio-item">
-                    <img src="img/tic-tac-toe.png" alt="Tic Tac Toe screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">TIC TAC TOE</span>
-                    <span class="portfolio-item-body">Play against another player or a computer.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/tic-tac-toe"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/tic-tac-toe"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+        <!-- Portfolio item 04 -->
+        <div class="portfolio-item">
+          <img
+            src="img/restaurant-menu.png"
+            alt="Restaurant menu screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">RESTAURANT MENU</span>
+          <span class="portfolio-item-body"
+            >Select desired food from the restaurant menu and fill your info for
+            the payment.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/restaurant-menu"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/restaurant-menu"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
 
-                <!-- Portfolio item 11 -->
-                <div  class="portfolio-item">
-                    <img src="img/todo-ts.png" alt="Todo typescript screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">TODO TS</span>
-                    <span class="portfolio-item-body">Write down and do your duties.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/todo-ts"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/todo-ts"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
-                
-                <!-- Portfolio item 12 -->
-                <div  class="portfolio-item">
-                    <img src="img/knights-travails.png" alt="Knights travails screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">KNIGHT'S TRAVAILS</span>
-                    <span class="portfolio-item-body">Find the shortest path a knight can take.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/knights-travails"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/knights-travails"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+        <div class="portfolio-line"></div>
 
-                <!-- Portfolio item 13 -->
-                <div  class="portfolio-item">
-                    <img src="img/battleship.png" alt="Battleship screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">BATTLESHIP</span>
-                    <span class="portfolio-item-body">Sink all of the computer's ships.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/battleship"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/battleship"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+        <!-- Portfolio item 05 -->
+        <div class="portfolio-item">
+          <img
+            src="img/treasure-hunt.png"
+            alt="Treasure hunt screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">TREASURE HUNT</span>
+          <span class="portfolio-item-body"
+            >Make a hunt and play with your kid. Guide him through all
+            obstacles, experience a fantasy in the real world and have a specisl
+            time togeher.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/treasure-hunt-game"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/treasure-hunt-game"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
 
-                <!-- Portfolio item 14 -->
-                <div  class="portfolio-item">
-                    <img src="img/e-shop.png" alt="E-shop screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">E-SHOP</span>
-                    <span class="portfolio-item-body">Explore LittleJoy Kingdom e-shop.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/e-shop"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/e-shop"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+        <div class="portfolio-line"></div>
 
-                <!-- Portfolio item 15 -->
-                <div  class="portfolio-item">
-                    <img src="img/multi-web-page.png" alt="Multy web page screenshoot" class="portfolio-img">
-                    <span class="portfolio-item-title">MULTI WEB PAGE</span>
-                    <span class="portfolio-item-body">Explore various utilities on this interesting site.</span>
-                    <div class="portfolio-item-links">
-                        <a class="portfolio-item-link" target="_blank" href="https://github.com/ivrlic/multi-web-page"><i class="fab fa-github"></i> GitHub</a>
-                        <a class="portfolio-item-link" target="_blank" href="https://ivrlic.github.io/multi-web-page"><i class="fas fa-eye"></i> Live</a>
-                    </div>
-                </div>
+        <!-- Portfolio item 06 -->
+        <div class="portfolio-item">
+          <img
+            src="img/password-generator.png"
+            alt="Password generator screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">PASSWORD GENERATOR</span>
+          <span class="portfolio-item-body"
+            >Choose length and generate your random password.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/password-generator"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/password-generator"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
 
-              </div>
-        </section>
+        <div class="portfolio-line"></div>
 
-        <!-- Contact -->
-        <section class="contact" id="contact">
-            <h2 class="section-title section-title-contact">Get in Touch</h2>
-            
-            <div class="contact-body">
-                 <p>Do you have any kind of question? Are you looking for creating a user-friendly website? Or thinking of building a web application? Or maybe just want to say "Hi!". In any case I will be happy to meet you. The quickest way to reach me out is by email.</p>
-            </div>
-            <a href="mailto:ivrlic@gmail.com" class="btn">ivrlic@gmail.com</a>
-         </section>
+        <!-- Portfolio item 07 -->
+        <div class="portfolio-item">
+          <img
+            src="img/react-tenzies.png"
+            alt="React tenzies screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">REACT TENZIES</span>
+          <span class="portfolio-item-body"
+            >Play the Tenzies game and beat the best score.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/react-tenzies"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/react-tenzies/"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
 
-        <!-- Button UP -->
-        <a href="#nav" class="btn-up" id="btn-up"> 
-            <img class="btn-up-arrow" src="img/arrow-up-light.png" alt="arrow up">
-        </a>
+        <div class="portfolio-line"></div>
 
-        <!-- Footer -->
-        <footer class="footer"></footer>
+        <!-- Portfolio item 08 -->
+        <div class="portfolio-item">
+          <img
+            src="img/react-quizzical.png"
+            alt="React quizzical screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">REACT QUIZZICAL</span>
+          <span class="portfolio-item-body"
+            >Find out how good is your general knowledge.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/react-quizzical"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/react-quizzical"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
+
+        <!-- Portfolio item 09 -->
+        <div class="portfolio-item">
+          <img
+            src="img/restaurant-page.png"
+            alt="Restaurant page screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">RESTAURANT PAGE</span>
+          <span class="portfolio-item-body"
+            >Visit The Evening Secret Restaurant Page.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/restaurant-page"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/restaurant-page"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
+
+        <!-- Portfolio item 10 -->
+        <div class="portfolio-item">
+          <img
+            src="img/tic-tac-toe.png"
+            alt="Tic Tac Toe screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">TIC TAC TOE</span>
+          <span class="portfolio-item-body"
+            >Play against another player or a computer.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/tic-tac-toe"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/tic-tac-toe"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
+
+        <!-- Portfolio item 11 -->
+        <div class="portfolio-item">
+          <img
+            src="img/todo-ts.png"
+            alt="Todo typescript screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">TODO TS</span>
+          <span class="portfolio-item-body"
+            >Write down and do your duties.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/todo-ts"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/todo-ts"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
+
+        <!-- Portfolio item 12 -->
+        <div class="portfolio-item">
+          <img
+            src="img/knights-travails.png"
+            alt="Knights travails screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">KNIGHT'S TRAVAILS</span>
+          <span class="portfolio-item-body"
+            >Find the shortest path a knight can take.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/knights-travails"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/knights-travails"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
+
+        <!-- Portfolio item 13 -->
+        <div class="portfolio-item">
+          <img
+            src="img/battleship.png"
+            alt="Battleship screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">BATTLESHIP</span>
+          <span class="portfolio-item-body"
+            >Sink all of the computer's ships.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/battleship"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/battleship"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
+
+        <!-- Portfolio item 14 -->
+        <div class="portfolio-item">
+          <img
+            src="img/e-shop.png"
+            alt="E-shop screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">E-SHOP</span>
+          <span class="portfolio-item-body"
+            >Explore LittleJoy Kingdom e-shop.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/e-shop"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/e-shop"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
+
+        <!-- Portfolio item 15 -->
+        <div class="portfolio-item">
+          <img
+            src="img/multi-web-page.png"
+            alt="Multy web page screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">MULTI WEB PAGE</span>
+          <span class="portfolio-item-body"
+            >Explore various utilities on this interesting site.</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/multi-web-page"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/multi-web-page"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
+
+        <!-- Portfolio item 16 -->
+        <div class="portfolio-item">
+          <img
+            src="img/animal-quiz.png"
+            alt="Animal quiz screenshoot"
+            class="portfolio-img"
+          />
+          <span class="portfolio-item-title">ANIMAL QUIZ</span>
+          <span class="portfolio-item-body"
+            >Can you recognize all animals? Try your best!</span
+          >
+          <div class="portfolio-item-links">
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://github.com/ivrlic/multi-web-page"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              class="portfolio-item-link"
+              target="_blank"
+              href="https://ivrlic.github.io/multi-web-page"
+              ><i class="fas fa-eye"></i> Live</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h2 class="section-title section-title-contact">Get in Touch</h2>
+
+      <div class="contact-body">
+        <p>
+          Do you have any kind of question? Are you looking for creating a
+          user-friendly website? Or thinking of building a web application? Or
+          maybe just want to say "Hi!". In any case I will be happy to meet you.
+          The quickest way to reach me out is by email.
+        </p>
+      </div>
+      <a href="mailto:ivrlic@gmail.com" class="btn">ivrlic@gmail.com</a>
+    </section>
+
+    <!-- Button UP -->
+    <a href="#nav" class="btn-up" id="btn-up">
+      <img class="btn-up-arrow" src="img/arrow-up-light.png" alt="arrow up" />
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer"></footer>
     <script src="js/index.js"></script>
-    </body>
+  </body>
 </html>
